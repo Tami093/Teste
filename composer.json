@@ -7,15 +7,11 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Nils Adermann",
-            "email": "naderman@naderman.de",
-            "homepage": "http://www.naderman.de"
-        },
-        {
-            "name": "Jordi Boggiano",
-            "email": "j.boggiano@seld.be",
-            "homepage": "http://seld.be"
+            "name": "Tamires",
+            "email": "crisoliveira.93@gmail.com",
+            "homepage": ""
         }
+      
     ],
     "support": {
         "irc": "irc://irc.freenode.org/composer",
