@@ -13,9 +13,35 @@
 
     <testsuites>
         <testsuite name="Teste">
-            <directory>./tests/</directory>
+            <directory>./teste/</directory>
         </testsuite>
     </testsuites>
 
 </phpunit>
+
+
+
+
+<phpunit  backupGlobals = "false" 
+         backupStaticAttributes = "false" 
+         colors = "true" 
+         convertErrorsToExceptions = "true" 
+         convertNoticesToExceptions = "true" 
+         convertWarningsToExceptions = "true" 
+         processIsolation = "false" 
+         syntaxCheck = "false" 
+         bootstrap = "bootstrap.php" 
+        > 
+    <testsuites> 
+        <testsuite  name = "First Testes " > 
+            <directory> ./teste/ </ directory> 
+        </ testsuite> 
+    </ TestSuites>
+
+    <filter> 
+        <whitelist> 
+            <directory> ./app/ </ directory> 
+        </ whitelist> 
+    </ filter> 
+</ phpunit>
 
