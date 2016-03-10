@@ -1,4 +1,4 @@
-<phpunit  backupGlobals = "true" 
+<phpunit  backupGlobals = "false" 
          backupStaticAttributes = "false" 
          colors = "true" 
          convertErrorsToExceptions = "true" 
@@ -6,7 +6,7 @@
          convertWarningsToExceptions = "true" 
          processIsolation = "false" 
          syntaxCheck = "false" 
-         bootstrap = "bootstrap.php" 
+          bootstrap="autoload.php"
         > 
     <testsuites> 
         <testsuite  name = "First Testes " > 
@@ -14,9 +14,11 @@
         </testsuite> 
     </testsuites>
 
-    <filter> 
+   <filter> 
         <whitelist> 
             <directory>./app/</directory> 
         </whitelist> 
     </filter> 
 </phpunit>
+
+ bootstrap="autoload.php"
