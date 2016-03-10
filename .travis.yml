@@ -10,7 +10,7 @@ php:
 before_script: composer install
 
 #passando o caminho para execução do teste
-script: phpunit --configuration Teste/phpunit.xml
+script: phpunit --configuration test/phpunit.xml
 
 notifications:
     on_success: never
