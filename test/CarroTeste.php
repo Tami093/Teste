@@ -5,7 +5,7 @@ require_once "Carro.php";
 /**
  * Classe Carro Teste
  **/
-class CarroTeste extends PHPUnit_Framework_Testcase
+class CarroTest extends PHPUnit_Framework_Testcase
 {
     public function testeCor()
     {
