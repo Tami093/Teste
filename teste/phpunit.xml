@@ -1,5 +1,5 @@
 
-<phpunit  backupGlobals = "false" 
+<phpunit  backupGlobals = "true" 
          backupStaticAttributes = "false" 
          colors = "true" 
          convertErrorsToExceptions = "true" 
@@ -11,7 +11,7 @@
         > 
     <testsuites> 
         <testsuite  name = "First Testes " > 
-            <directory>./Teste/teste/</directory> 
+            <directory>./Teste/</directory> 
         </testsuite> 
     </testsuites>
 
