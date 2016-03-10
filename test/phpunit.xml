@@ -1,4 +1,4 @@
-<phpunit  backupGlobals = "false" 
+<phpunit  backupGlobals = "true" 
          backupStaticAttributes = "false" 
          colors = "true" 
          convertErrorsToExceptions = "true" 
@@ -6,7 +6,7 @@
          convertWarningsToExceptions = "true" 
          processIsolation = "false" 
          syntaxCheck = "false" 
-          bootstrap="autoload.php"
+          bootstrap="bootsrap.php"
         > 
     <testsuites> 
         <testsuite  name = "First Testes " > 
