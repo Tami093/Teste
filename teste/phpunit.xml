@@ -13,7 +13,7 @@
         <testsuite  name = "First Testes " > 
             <directory> ./teste/ </ directory> 
         </ testsuite> 
-    </ TestSuites>
+    </ testsuites>
 
     <filter> 
         <whitelist> 
