@@ -5,6 +5,6 @@
 		</whitelist>
 	</filter>
 	<testsuite>
-		<directory>./</directory>
+		<directory>./teste</directory>
 	</testsuite>
 </phpunit>
