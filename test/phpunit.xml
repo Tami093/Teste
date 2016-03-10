@@ -1,4 +1,4 @@
-<phpunit  backupGlobals = "true" 
+<phpunit  backupGlobals = "false" 
          backupStaticAttributes = "false" 
          colors = "true" 
          convertErrorsToExceptions = "true" 
