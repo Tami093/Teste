@@ -6,7 +6,9 @@ php:
     - 5.4
     - 5.3
     - 7.0
-
+before_install:
+    -php /home/travis/.phpenv/versions/7.0.0/bin/composer.phar self-update
+#Instalar dependências
 before_script: composer install
 
 #passando o caminho para execução do teste
