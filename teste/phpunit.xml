@@ -11,7 +11,7 @@
         > 
     <testsuites> 
         <testsuite  name = "First Testes " > 
-            <directory>./teste/</directory> 
+            <directory>./Teste/teste/</directory> 
         </testsuite> 
     </testsuites>
 
