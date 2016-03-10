@@ -6,7 +6,7 @@
          convertWarningsToExceptions = "true" 
          processIsolation = "false" 
          syntaxCheck = "false" 
-          bootstrap="bootsrap.php"
+          bootstrap="bootstrap.php"
         > 
     <testsuites> 
         <testsuite  name = "First Testes " > 
