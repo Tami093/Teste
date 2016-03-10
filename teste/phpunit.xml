@@ -1,10 +1,21 @@
-<phpunit backupGlobals="true" bootstrap="./bootstrap.php">
-	<filter>
-		<whitelist>
-			<directory>/app</directory>
-		</whitelist>
-	</filter>
-	<testsuite>
-		<directory>./teste</directory>
-	</testsuite>
+
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="./bootstrap.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false"
+        >
+
+    <testsuites>
+        <testsuite name="Teste">
+            <directory>./tests/</directory>
+        </testsuite>
+    </testsuites>
+
 </phpunit>
+
